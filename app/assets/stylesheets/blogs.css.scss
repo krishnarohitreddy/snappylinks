@@ -1,0 +1,43 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a:hover {
+    color: #FF00FF;
+}
+div {
+	padding: 2px;
+	
+}
+ul{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	background-repeat: no-repeat;
+	background-color: transparent;
+
+}
+h1 {
+	padding-bottom: px;
+	padding-left: 500px;
+	
+}
+p {
+	padding-left: 200px;
+	padding-top: 5px;
+	font-size: 150%;
+	colour: #00ff00;
+	position: relative;
+    -webkit-animation-name: mymove;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-name: mymove;
+    animation-duration: 25s;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}

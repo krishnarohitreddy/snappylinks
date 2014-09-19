@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rohit</title>
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include bootstrap stylesheets -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+	<div class="nav nav-tabs">
+    	<ul class="nav nav-pills">
+    	<span class="glyphicon glyphicon-user"></span>
+    	<%= link_to 'Home', new_blog_path %>
+    	<span class="glyphicon glyphicon-globe"></span>
+    	<a href="###">About us</a>
+    	<span class="glyphicon glyphicon-earphone"></span>
+    	<%= link_to 'contact', blogs_path %>
+    	
+    	</ul>
+    </div>
+	
+	
+<%= yield %>
+	
+
+</body>
+</html>

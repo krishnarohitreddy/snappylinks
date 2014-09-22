@@ -2,29 +2,62 @@
 <html>
 <head>
   <title>Rohit</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include bootstrap stylesheets -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+
 </head>
 <body>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- Include bootstrap stylesheets -->
-    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+
 	<div class="nav nav-tabs">
     	<ul class="nav nav-pills">
     	<span class="glyphicon glyphicon-user"></span>
-    	<%= link_to 'Home', new_blog_path %>
+    	<%= link_to 'Home', blogs_path %>
     	<span class="glyphicon glyphicon-globe"></span>
-    	<a href="###">About us</a>
+    	<%= link_to 'Aboutus', aboutus_index_path %>
     	<span class="glyphicon glyphicon-earphone"></span>
-    	<%= link_to 'contact', blogs_path %>
-    	
-    	</ul>
+    	<%= link_to 'contact', contact_index_path %>
+      <span href="###">Stay Connected to real world leaving the junk behind!</span>
+      <span class="glyphicon glyphicon-heart"></span>
+      <span class="glyphicon glyphicon-heart"></span>
+      <span class="glyphicon glyphicon-heart"></span>
+    </ul>
     </div>
-	
-	
+    
 <%= yield %>
-	
-
+<br>
+<footer>   
+  <div>
+  
+  </div> 
+</footer>
 </body>
 </html>
+   <script>
+$(function() {
+  $("#dialog").hide();
+  $( "#opener" ).click(function() {
+    $( "#dialog" ).dialog({
+      
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "explode",
+        duration: 1000
+      }
+    });
+ 
+      $( "#dialog" ).dialog("open");
+    });
+  });
+</script>

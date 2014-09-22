@@ -3,8 +3,4 @@ class BlogsController < ApplicationController
 	end
 	def new
 	end
-	
-	def show
-		
-	end
 end

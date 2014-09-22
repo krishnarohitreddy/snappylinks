@@ -2,11 +2,40 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 a:hover {
-    color: #FF00FF;
+    color: #FFFFFF;
 }
+.img {
+	float: left;
+	overflow: hidden;
+}
+
+footer:before {
+position: absolute;
+content: '';
+z-index: -1;
+top: 57rem;
+height: 10rem;
+left: 0;
+right: 0;
+background-image: url('http://desktopict.org/wp-content/uploads/2014/03/dark-blue-background-wallpaper-6.jpg');
+background-repeat: repeat-x;
+pointer-events: none;
+}
+
 div {
-	padding: 2px;
-	
+	padding: 2px;	
+	colour: #FF00FF;
+}
+
+ h4{
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.container{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
 }
 ul{
 	margin: 0;
@@ -21,11 +50,14 @@ h1 {
 	padding-left: 500px;
 	
 }
-p {
-	padding-left: 200px;
-	padding-top: 5px;
+h6 {
+	
 	font-size: 150%;
-	colour: #00ff00;
+	color: chocolate;
+	font-family: fantasy;
+}
+
+.p {
 	position: relative;
     -webkit-animation-name: mymove;  /* Chrome, Safari, Opera */
     -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
@@ -37,7 +69,38 @@ p {
     to {left: 500px;}
 }
 
+
+
 @keyframes mymove {
     from {left: 0px;}
     to {left: 500px;}
 }
+
+
+.i-know-someone {
+	position: relative;
+	left: 1%;
+	 border: 20px;
+	 background: url(https://lh6.googleusercontent.com/-nvmfHMaQ33M/Uz8iLd8XdRI/AAAAAAAABGo/2Gr0PgB7hCA/w417-h555-no/20140327_155042.jpg) no-repeat;
+    padding: 20px 10px; 
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+
+.i-know-sandeep {
+position: relative;
+	left: 1%;
+	 border: 20px;
+	 background: url() no-repeat;
+    padding: 20px 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+	
+}
+
+
+ 
+
+

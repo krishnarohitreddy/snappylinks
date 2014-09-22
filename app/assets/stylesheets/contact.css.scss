@@ -1,0 +1,42 @@
+// Place all the styles related to the contact controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+p{
+	margin-left: 10%;
+    font-family: cursive;
+}	
+h3{
+    margin-top: 5%;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+h2 {
+	font-family: cursive;
+	font-size: 150%;
+	margin-left: 20%;
+}
+
+div#glasses {
+	float: left;
+	margin-top: 2%;
+	margin-left: 2%;
+	overflow: hidden;
+}
+
+div#content {
+	float: left;
+	width: 45%;
+	overflow: hidden;
+}
+.jumbo1 {
+	margin-top:12%;
+	margin-left:80%;
+}
+.jumbo2 {
+	margin-top:43%;
+	margin-left:80%;
+}
+.jumbo3 {
+	margin-top:4%;
+	margin-left: 80%;
+}

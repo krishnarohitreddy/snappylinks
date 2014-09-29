@@ -1,4 +1,5 @@
 Rohit::Application.routes.draw do
+<<<<<<< HEAD
   resources :blogs do
     collection do
     root 'blogs#index'
@@ -12,6 +13,12 @@ end
     get 'contact/index'
     get 'aboutus/index' 
 
+=======
+  resources :blogs 
+    root 'blogs#index'
+    get 'contact/index'
+    get 'aboutus/index'
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

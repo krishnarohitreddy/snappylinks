@@ -1,4 +1,5 @@
 class BlogsController < ApplicationController
+<<<<<<< HEAD
 	def create
 		@blogs = Blog.new(blog_params)
 		@blogs.save
@@ -20,5 +21,10 @@ class BlogsController < ApplicationController
 	def c
 	end
 	def java
+=======
+	def index
+	end
+	def new
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
 	end
 end

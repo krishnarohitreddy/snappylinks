@@ -1,13 +1,18 @@
 // Place all the styles related to the blogs controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+<<<<<<< HEAD
 a:link {
+=======
+a:hover {
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
     color: #FFFFFF;
 }
 .img {
 	float: left;
 	overflow: hidden;
 }
+<<<<<<< HEAD
 #ping-pong{
 	margin-left: 2%;
 }
@@ -40,13 +45,29 @@ height: 20rem;
 left: 0;
 right: 0;
 background-image: url('http://wallfoy.com/wp-content/uploads/2014/03/Grey-Background-117.jpg');
+=======
+
+footer:before {
+position: absolute;
+content: '';
+z-index: -1;
+top: 57rem;
+height: 10rem;
+left: 0;
+right: 0;
+background-image: url('http://desktopict.org/wp-content/uploads/2014/03/dark-blue-background-wallpaper-6.jpg');
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
 background-repeat: repeat-x;
 pointer-events: none;
 }
 
 div {
 	padding: 2px;	
+<<<<<<< HEAD
 	colour: white;
+=======
+	colour: #FF00FF;
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
 }
 
  h4{
@@ -64,7 +85,11 @@ ul{
 	padding: 0;
 	display: inline;
 	background-repeat: no-repeat;
+<<<<<<< HEAD
 	background-color: inherit;
+=======
+	background-color: transparent;
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
 
 }
 h1 {
@@ -75,7 +100,11 @@ h1 {
 h6 {
 	
 	font-size: 150%;
+<<<<<<< HEAD
 	color: white;
+=======
+	color: chocolate;
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
 	font-family: fantasy;
 }
 
@@ -86,8 +115,11 @@ h6 {
     animation-name: mymove;
     animation-duration: 25s;
 }
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
 @-webkit-keyframes mymove {
     from {left: 0px;}
     to {left: 500px;}

@@ -92,7 +92,10 @@ GEM
       actionpack (>= 3.0)
       activesupport (>= 3.0)
       sprockets (~> 2.8)
+<<<<<<< HEAD
     sqlite3 (1.3.9)
+=======
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
     thor (0.19.1)
     thread_safe (0.3.4)
     tilt (1.4.1)
@@ -122,7 +125,10 @@ DEPENDENCIES
   rails (= 4.0.2)
   sass-rails (~> 4.0.0)
   sdoc
+<<<<<<< HEAD
   sqlite3
+=======
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
   turbolinks
   uglifier (>= 1.3.0)
   unicorn

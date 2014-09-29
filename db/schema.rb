@@ -15,8 +15,11 @@ ActiveRecord::Schema.define(version: 20140918001629) do
 
   create_table "blogs", force: true do |t|
     t.string   "name"
+<<<<<<< HEAD
     t.string   "email"
     t.string   "message"
+=======
+>>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
     t.datetime "created_at"
     t.datetime "updated_at"
   end

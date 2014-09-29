@@ -1,13 +1,15 @@
 Rohit::Application.routes.draw do
   resources :blogs do
     collection do
-    get 'student'
+    get 'student' 
     get 'ruby'
     get 'rails'
     get 'c'
     get 'java'
   end
 end 
+root 'blogs#index'
+
     get 'contact/index'
     get 'aboutus/index' 
 

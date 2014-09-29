@@ -1,0 +1,130 @@
+// Place all the styles related to the blogs controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+a:link {
+    color: #FFFFFF;
+}
+.img {
+	float: left;
+	overflow: hidden;
+}
+#ping-pong{
+	margin-left: 2%;
+}
+#left-col {
+	margin-left: 10px;
+	margin-top: 2%;
+	font-family: cursive;
+	font-size: 150%;
+	color: rgba(182, 221, 30, 1);
+	float: left;
+	overflow: hidden;
+}
+#main-ruby {
+	margin-left: 5%;
+	margin-top: 2%;
+	font-family: cursive;
+	font-size: 150%;
+	color: rgba(182, 221, 30, 1);
+	float: left;
+	overflow: hidden;
+}
+
+footer:after {
+position: absolute;
+content: '';
+display: inline;
+z-index: 0;
+top: 80rem;
+height: 20rem;
+left: 0;
+right: 0;
+background-image: url('http://wallfoy.com/wp-content/uploads/2014/03/Grey-Background-117.jpg');
+background-repeat: repeat-x;
+pointer-events: none;
+}
+
+div {
+	padding: 2px;	
+	colour: white;
+}
+
+ h4{
+	margin-left: 50px;
+	margin-top: 100px;
+}
+.container{
+	-webkit-column-count: 2; /* Chrome, Safari, Opera */
+    -moz-column-count: 2; /* Firefox */
+    column-count: 2;
+
+}
+ul{
+	margin: 0;
+	padding: 0;
+	display: inline;
+	background-repeat: no-repeat;
+	background-color: inherit;
+
+}
+h1 {
+	padding-bottom: px;
+	padding-left: 500px;
+	
+}
+h6 {
+	
+	font-size: 150%;
+	color: white;
+	font-family: fantasy;
+}
+
+.p {
+	position: relative;
+    -webkit-animation-name: mymove;  /* Chrome, Safari, Opera */
+    -webkit-animation-duration: 5s;  /* Chrome, Safari, Opera */
+    animation-name: mymove;
+    animation-duration: 25s;
+}
+
+
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 500px;}
+}
+
+
+.i-know-someone {
+	position: relative;
+	left: 1%;
+	 border: 20px;
+	 background: url(https://lh6.googleusercontent.com/-nvmfHMaQ33M/Uz8iLd8XdRI/AAAAAAAABGo/2Gr0PgB7hCA/w417-h555-no/20140327_155042.jpg) no-repeat;
+    padding: 20px 10px; 
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+}
+
+.i-know-sandeep {
+position: relative;
+	left: 1%;
+	 border: 20px;
+	 background: url() no-repeat;
+    padding: 20px 10px;
+    width: 300px;
+    height: 300px;
+    border-radius: 500px;
+	
+}
+
+
+ 
+
+

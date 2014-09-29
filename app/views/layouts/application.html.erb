@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Snappylinks</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Include bootstrap stylesheets -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+  <link src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js">
+  <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+  <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+  <%= csrf_meta_tags %>
+  <meta charset="utf-8">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
+  <script src="jquery.min.js"></script>
+<script src="jssor.slider.mini.js"></script>
+<meta charset="UTF-8">
+<title>Example of Twitter Bootstrap 3 Carousel</title>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+  
+	<div class="navbar navbar-inverse">
+    	<ul class="nav navbar-nav navbar-left">
+        <li class="active">
+          <li><%= link_to 'Home', blogs_path %></li>
+    	    <li><%= link_to 'AboutUs', aboutus_index_path %></li>
+    	    <li><%= link_to 'Contact', contact_index_path %></li>
+          <li><%= link_to 'Student Tab',student_blogs_path %></li>
+        </li>
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+         
+      </ul>
+  </div>
+    <!--http://www.sandeepmaheshwari.com/images/FB_LOGO.JPG -->
+<%= yield %>
+<div id="container">
+  
+  </div>
+
+</body>
+</html>
+   <script>
+$(function() {
+  $("#dialog").hide();
+  $( "#opener" ).click(function() {
+    $( "#dialog" ).dialog({
+      
+      show: {
+        effect: "blind",
+        duration: 1000
+      },
+      hide: {
+        effect: "toggle",
+        duration: 1000
+      }
+    });
+ 
+      $( "#dialog" ).dialog("open");
+    });
+  });
+</script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-55171961-1', 'auto');
+  ga('send', 'pageview');
+</script>
+
+
+
+
+
+

@@ -1,0 +1,66 @@
+#left-col {
+	margin-left: 10px;
+	margin-top: 2%;
+	font-family: cursive;
+	font-size: 150%;
+	color: rgba(182, 221, 30, 1);
+	float: left;
+	overflow: hidden;
+}
+#main-ruby {
+	margin-left: 5%;
+	margin-top: 2%;
+	font-family: cursive;
+	font-size: 140%;
+	color: white;
+	float: left;
+	overflow: hidden;
+}
+.like {
+padding-left: 1225px;
+}
+#content h2 {
+	color: oldlace;
+	margin-left: 10px;
+}
+#content p{
+	margin-left: 10px;
+}
+.table3 h2{
+	color: oldlace;
+}
+#container::after {
+position: absolute;
+content: '';
+z-index: -1;
+top: -10rem;
+height: 100rem;
+left: 0;
+right: 0;
+background-image: url('http://wallfoy.com/wp-content/uploads/2014/03/Grey-Background-87.jpg');
+background-repeat: repeat-x;
+pointer-events: none;
+}
+
+.bottom1 p{
+	color: oldlace;
+}
+
+h3{
+    margin: 0;     
+    color: white;
+    padding-top: 90px;
+    font-size: 70px;
+    font-family: "trebuchet ms", sans-serif;    
+}
+.item{
+    background: #333;    
+    text-align: center;
+    height: 300px !important;
+}
+.carousel{
+    margin-top: 0px;
+}
+.bs-example{
+	margin: 10px;
+}

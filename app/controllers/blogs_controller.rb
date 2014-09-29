@@ -21,10 +21,9 @@ class BlogsController < ApplicationController
 	def c
 	end
 	def java
-=======
+	end
 	def index
 	end
 	def new
->>>>>>> 22e25484e623958da83532dd583cf6cdd91cca3e
 	end
 end

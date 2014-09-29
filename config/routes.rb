@@ -7,14 +7,9 @@ Rohit::Application.routes.draw do
     get 'c'
     get 'java'
   end
-end
+end 
     get 'contact/index'
     get 'aboutus/index' 
-
-  resources :blogs 
-    root 'blogs#index'
-    get 'contact/index'
-    get 'aboutus/index'
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

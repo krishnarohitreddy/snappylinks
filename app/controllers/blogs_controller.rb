@@ -1,5 +1,4 @@
 class BlogsController < ApplicationController
-<<<<<<< HEAD
 	def create
 		@blogs = Blog.new(blog_params)
 		@blogs.save

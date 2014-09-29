@@ -1,7 +1,6 @@
 Rohit::Application.routes.draw do
   resources :blogs do
     collection do
-    root 'blogs#index'
     get 'student'
     get 'ruby'
     get 'rails'

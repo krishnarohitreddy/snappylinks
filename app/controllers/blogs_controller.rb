@@ -2,7 +2,13 @@ class BlogsController < ApplicationController
 	def create
 		@blogs = Blog.new(blog_params)
 		@blogs.save
-		render 'student'
+		if @blogs.save
+		render 'index'
+		else
+		render 'feedback'
+		end
+	end
+	def feedback
 	end
 	def blog_params
 		params.require(:blogs).permit(:name,:email,:message)

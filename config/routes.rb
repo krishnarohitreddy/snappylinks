@@ -6,6 +6,7 @@ Rohit::Application.routes.draw do
     get 'rails'
     get 'c'
     get 'java'
+    get 'feedback'
   end
 end 
 root 'blogs#index'

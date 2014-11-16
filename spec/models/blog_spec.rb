@@ -6,6 +6,7 @@ describe Blog do
 
   context "validations" do
     it "should validate presence of name" do
+      subject.should be_valid
       expect(subject.name).to eq('rohit')
     end
 

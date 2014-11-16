@@ -13,8 +13,6 @@
     <link rel="stylesheet" href="//code.jquery.com/ui/1.11.1/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
   <script src="//code.jquery.com/ui/1.11.1/jquery-ui.js"></script>
-  <script src="jquery.min.js"></script>
-<script src="jssor.slider.mini.js"></script>
 <meta charset="UTF-8">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
@@ -22,7 +20,7 @@
 <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  
+
 	<div class="navbar navbar-inverse">
     	<ul class="nav navbar-nav navbar-left">
         <li class="active">
@@ -39,7 +37,7 @@
     <!--http://www.sandeepmaheshwari.com/images/FB_LOGO.JPG -->
 <%= yield %>
 <div id="container">
-  
+
   </div>
 
 
@@ -52,7 +50,7 @@ $(function() {
   $("#dialog").hide();
   $( "#opener" ).click(function() {
     $( "#dialog" ).dialog({
-      
+
       show: {
         effect: "blind",
         duration: 1000
@@ -63,7 +61,7 @@ $(function() {
         duration: 1000
       }
     });
- 
+
       $( "#dialog" ).dialog("open");
     });
   });

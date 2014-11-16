@@ -5,8 +5,8 @@ gem 'rails', '4.0.2'
 
 # Use sqlite3 as the database for Active Record
 
-
-gem 'sqlite3'
+# comment it out when deploying to heroku
+#gem 'sqlite3'
 
 
 
@@ -45,9 +45,10 @@ end
 group :test do
   gem 'capybara',           :require => false
   gem 'cucumber-rails',     :require => false
-  #gem 'database_cleaner',   :require => false
+  gem 'database_cleaner',   :require => false
   #gem 'diff-lcs', '< 1.2' # workaround Bundler infinite loop
   gem 'factory_girl_rails'
+
   #gem 'fivemat'
   #gem 'json_spec'
   #gem 'launchy',            :require => false

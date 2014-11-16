@@ -4,6 +4,7 @@ class CreateBlogs < ActiveRecord::Migration
     	t.string :name
     	t.string :email
     	t.string :message
-        t.timestamps
+      t.timestamps
     end
+  end
 end

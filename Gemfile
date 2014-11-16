@@ -15,7 +15,7 @@ gem 'sass-rails', '~> 4.0.0'
 
 gem 'factory_girl'
 gem 'rspec-rails'
-gem 'pry-debugger', '~> 0.2.3'
+#gem 'pry-debugger', '~> 0.2.3'
 gem 'cucumber'
 
 # Use Uglifier as compressor for JavaScript assets
